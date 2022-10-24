@@ -2,6 +2,8 @@
 
 Provides [Tailwind CSS](https://tailwindcss.com) completions for Sublime Text.
 
+![Screenshot of Sublime Text Tailwind CSS autocomplete](screenshot.png)
+
 ## Installation
 
 ### Package Control installation
