@@ -1790,6 +1790,11 @@
         {"trigger":"w-max","annotation":"width: max-content","details":"width: max-content"},
         {"trigger":"w-min","annotation":"width: min-content","details":"width: min-content"},
         {"trigger":"w-px","annotation":"width: 1px","details":"width: 1px"},
-        {"trigger":"w-screen","annotation":"width: 100vw","details":"width: 100vw"}
+        {"trigger":"w-screen","annotation":"width: 100vw","details":"width: 100vw"},
+        {"trigger":"whitespace-normal","annotation":"white-space: normal","details":"white-space: normal"},
+        {"trigger":"whitespace-nowrap","annotation":"white-space: nowrap","details":"white-space: nowrap"},
+        {"trigger":"whitespace-pre","annotation":"white-space: pre","details":"white-space: pre"},
+        {"trigger":"whitespace-pre-line","annotation":"white-space: pre-line","details":"white-space: pre-line"},
+        {"trigger":"whitespace-pre-wrap","annotation":"white-space: pre-wrap","details":"white-space: pre-wrap"}
     ]
 }
