@@ -6,8 +6,6 @@ Provides [Tailwind CSS](https://tailwindcss.com) completions for Sublime Text.
 
 ## Installation
 
-### Package Control installation
-
 *Pending addition to package control channel*
 
 The preferred method of installation is [Package Control](https://packagecontrol.io/browse/authors/gerardroche).
@@ -28,10 +26,9 @@ OS X | Windows | Linux | Description
 -----|---------|-------|------------
 <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Alt</kbd>+<kbd>/</kbd> | Activate completions
 
-
 Sublime Text has many interesting settings for configuring auto complete.
 
-**Menu > Preferences > Settings**
+**Menu → Preferences → Settings**
 
 ```text
 {
@@ -48,7 +45,3 @@ Sublime Text has many interesting settings for configuring auto complete.
     // ...
 }
 ```
-
-## License
-
-Released under the [BSD 3-Clause License](LICENSE).
