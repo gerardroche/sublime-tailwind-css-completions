@@ -45,3 +45,7 @@ Sublime Text has many interesting settings for configuring auto complete.
     // ...
 }
 ```
+
+## License
+
+Released under the [GPL-3.0-or-later License](LICENSE).
