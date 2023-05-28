@@ -1,49 +1,29 @@
-# Tailwind CSS Completions
+# TailwindCSSCompletions
 
-Provides [Tailwind CSS](https://tailwindcss.com) completions for Sublime Text.
+[Tailwind CSS](https://tailwindcss.com) completions for Sublime Text.
 
-![Screenshot of Sublime Text Tailwind CSS autocomplete](screenshot.png)
+![TailwindCssCompletions](screenshot.png)
 
 ## Installation
 
-*Pending addition to package control channel*
+Clone this repository to a directory named **TailwindCSSCompletions** in the Sublime Text Packages directory for your platform:
 
-The preferred method of installation is [Package Control](https://packagecontrol.io/browse/authors/gerardroche).
+**Linux**
 
-### Manual installation
+```sh
+git clone https://github.com/gerardroche/sublime-tailwind-css-completions.git ~/.config/sublime-text-3/Packages/TailwindCSSCompletions
+```
 
-Close Sublime Text, then download or clone this repository to a directory named `Tailwind CSS Completions` in the Sublime Text Packages directory for your platform:
+**OSX**
 
-* Linux: `git clone https://github.com/gerardroche/sublime-tailwind-css-completions.git ~/.config/sublime-text-3/Packages/Tailwind CSS Completions`
-* OSX: `git clone https://github.com/gerardroche/sublime-tailwind-css-completions.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Tailwind CSS Completions`
-* Windows: `git clone https://github.com/gerardroche/sublime-tailwind-css-completions.git %APPDATA%\Sublime/ Text/ 3/Packages/Tailwind CSS Completions`
+```sh
+git clone https://github.com/gerardroche/sublime-tailwind-css-completions.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/TailwindCSSCompletions
+```
 
-## Usage
+**Windows**
 
-By default, completions are triggered automatically when typing. If the setting `auto_complete` is set to false then completions must be manually triggered.
-
-OS X | Windows | Linux | Description
------|---------|-------|------------
-<kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Alt</kbd>+<kbd>/</kbd> | Activate completions
-
-Sublime Text has many interesting settings for configuring auto complete.
-
-**Menu → Preferences → Settings**
-
-```text
-{
-    // By default, auto complete will commit the current completion on enter.
-    // This setting can be used to make it complete on tab instead.
-    // Completing on tab is generally a superior option, as it removes
-    // ambiguity between committing the completion and inserting a newline.
-    "auto_complete_commit_on_tab": false,
-
-    // Controls if auto complete is shown when snippet fields are active.
-    // Only relevant if auto_complete_commit_on_tab is true.
-    "auto_complete_with_fields": false,
-
-    // ...
-}
+```sh
+git clone https://github.com/gerardroche/sublime-tailwind-css-completions.git %APPDATA%\Sublime/ Text/ 3/Packages/TailwindCSSCompletions
 ```
 
 ## License
