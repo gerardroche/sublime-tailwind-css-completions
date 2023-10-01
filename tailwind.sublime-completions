@@ -3,7 +3,7 @@
     //
     // text.html,text.html.vue
 
-    "scope": "text.html,text.html.vue",
+    "scope": "text.html - source, text.html.vue - source",
     "completions": [
         {"trigger":"absolute","annotation":"position: absolute","details":"position: absolute"},
         {"trigger":"bg-amber-100"},
