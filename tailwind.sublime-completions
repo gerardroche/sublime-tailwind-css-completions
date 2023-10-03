@@ -1,7 +1,12 @@
 {
     // scope:
     //
-    // text.html,text.html.vue
+    // text.html
+    //   blacklist:
+    //     source
+    // text.html.vue
+    //   blacklist:
+    //     source
 
     "scope": "text.html - source, text.html.vue - source",
     "completions": [
